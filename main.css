@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: serif;
+  color: black;
+  font-family: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+ul,
+li {
+  display: block;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.header {
+  background: url("../img/bgtop.jpg");
+  height: 120px;
+  width: 1920px;
+}
+header a {
+  color: black;
+}
+.menu {
+  align-items: center;
+  display: flex;
+}
+.menu li a {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+}
+.menu li {
+  margin-right: 40px;
+}
+.phone {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.pphone {
+  margin-left: 100px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.section {
+  height: 120px;
+  width: 1920px;
+  background-color: grey;
+}
